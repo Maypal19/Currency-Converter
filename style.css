@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  body { 
+    background-image: url(./jason-leung-SAYzxuS1O3M-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background-color: lightgray; */
+    padding: 20px;
+  }
+  .container {
+
+    color: #fff;
+    /* background-color: transparent; */
+    background:linear-gradient(120deg,rgba(238, 235, 237, 0.717),rgba(6, 6, 6, 0.767)) ;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow:inset 10px 10px 20px rgb(5, 5, 5),inset -10px -10px 20px rgba(255, 255, 255, 0.906);
+    text-align: center;
+  }
+  .container:hover{
+    box-shadow: 10px 10px 20px rgb(5, 5, 5), -10px -10px 20px rgba(255, 255, 255, 0.906);
+  }
+  h1{
+    /* background:linear-gradient(160deg,rgb(241, 241, 5),rgba(235, 9, 186, 0.621)) ; */
+    font-family: serif;
+  }
+  select,
+  input,
+  button {
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid rgb(7, 7, 7);
+    border-top: 2px solid rgb(10, 10, 10);
+    border-radius: 10px;
+  }
+  select,
+  input,
+  button:focus {
+    outline: none;
+  }
+  button {
+    cursor: pointer;
+  }
+  #result{
+    color: #fff;
+  }
